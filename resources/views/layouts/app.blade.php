@@ -12,11 +12,9 @@
     <aside class="w-64 bg-white shadow-lg min-h-screen">
         <div class="p-6 text-xl font-bold border-b">UMKM APP</div>
         <nav class="mt-6">
-            <a href="/dashboard" class="block py-2.5 px-4 hover:bg-gray-200">Dashboard</a>
-            <a href="/products" class="block py-2.5 px-4 hover:bg-gray-200">Produk</a>
+            <a href="/products" class="block py-2.5 px-4 hover:bg-gray-200">Perhitungan HPP</a>
             <a href="/order-history" class="block py-2.5 px-4 hover:bg-gray-200">Riwayat Order</a>
             <a href="/sales" class="block py-2.5 px-4 hover:bg-gray-200">Target Penjualan</a>
-            <a href="/hpp" class="block py-2.5 px-4 hover:bg-gray-200">Perhitungan HPP</a>
             <form action="/logout" method="POST" class="mt-6">
                 @csrf
                 <button type="submit" class="w-full text-left py-2.5 px-4 hover:bg-gray-200 text-red-600">Logout</button>

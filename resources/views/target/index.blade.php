@@ -18,7 +18,7 @@
     <div class="w-full max-w-md space-y-6">
 
         <!-- Form Target Keuntungan -->
-        <form action="{{ route('sales.storeTarget') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4">
+        <form action="{{ route('target.storeTarget') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4">
             @csrf
             <h2 class="font-semibold">Target Keuntungan Penjualan</h2>
             <input type="number" name="target_profit" placeholder="Masukan Target Keuntungan Penjualan Hari ini" class="w-full border p-2 rounded" required>
@@ -26,7 +26,7 @@
         </form>
 
         <!-- Form Keuntungan Hari Ini -->
-        <form action="{{ route('sales.storeProfit') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4">
+        <form action="{{ route('target.storeProfit') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4">
             @csrf
             <h2 class="font-semibold">Keuntungan Hari Ini</h2>
             <input type="number" name="today_profit" placeholder="Masukan Keuntungan Penjualan Hari ini" class="w-full border p-2 rounded" required>
@@ -34,7 +34,7 @@
         </form>
 
         <!-- Form Tambah Menu Terjual -->
-        <form action="{{ route('sales.storeMenu') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4" id="menu-form">
+        <form action="{{ route('target.storeMenu') }}" method="POST" class="bg-white text-black p-4 rounded-lg shadow space-y-4" id="menu-form">
             @csrf
             <h2 class="font-semibold">Menu Makanan dan Minuman yang Terjual</h2>
             <div id="menu-wrapper">

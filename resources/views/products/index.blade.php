@@ -35,7 +35,7 @@
                         <input type="text" name="materials[0][name]" placeholder="Nama Bahan" class="w-full border p-2 rounded mb-2" required>
                         <input type="number" name="materials[0][price]" placeholder="Harga Bahan" class="w-full border p-2 rounded mb-2" required>
                         <input type="text" name="materials[0][unit]" placeholder="Jumlah Bahan (Buah/Gram/Kg)" class="w-full border p-2 rounded mb-2" required>
-                        <input type="number" name="materials[0][quantity]" placeholder="Jumlah" class="w-full border p-2 rounded" required>
+                        <input type="number" name="materials[0][quantity]" placeholder="Jumlah Kuantitas" class="w-full border p-2 rounded" required>
                     </div>
                 </div>
 
@@ -47,6 +47,8 @@
                     <input type="number" name="overhead_cost" placeholder="Biaya Overhead" class="w-full border p-2 rounded mb-2" required>
                     <input type="number" name="margin" placeholder="Target Margin (%)" class="w-full border p-2 rounded" required>
                 </div>
+
+                
 
                 <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded w-full">Hitung</button>
             </form>
